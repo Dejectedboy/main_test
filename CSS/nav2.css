@@ -1,0 +1,77 @@
+.the_biggest {
+    float: right;
+    margin-right: 9px;
+    position: relative;
+    /* margin: 100px auto; */
+    width: 721px;
+    height: 455px;
+    /* background-color: pink; */
+    /* padding-top: 10px; */
+    overflow: hidden;
+}
+
+.the_biggest li {
+    float: left;
+    /* margin-right: 5px; */
+    height: 100%;
+}
+
+.the_lunbo {
+    /* margin-top: 10px; */
+    width: 700%;
+    height: 100%;
+    /* float: left; */
+    position: absolute;
+}
+
+.focus_pic {
+    height: 100%;
+    width: 100%;
+}
+
+.nav_theLeft,
+.nav_theRight {
+    /* font-family: 'icomoon'; */
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+    z-index: 2;
+    background: rgba(0, 0, 0, .5);
+}
+
+.nav_theLeft {
+    left: 0px;
+}
+
+.nav_theRight {
+    right: 0px;
+}
+
+.the_circle {
+
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    /* background-color: pink; */
+    left: 50%;
+    margin-left: -100px;
+    bottom: 5px;
+    /* padding-left: 10px; */
+}
+
+.the_circle li {
+    /* margin: auto; */
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .5);
+    margin-left: 21px;
+}
+
+.the_circle .the_current {
+    background-color: #fff;
+}

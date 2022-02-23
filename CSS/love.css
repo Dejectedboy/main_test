@@ -1,0 +1,74 @@
+/* 分割线开始 */
+.division {
+    margin: auto;
+    margin-top: 21px;
+    width: 1200px;
+    height: 38px;
+    /* background-color: pink; */
+    /* padding: 10px; */
+    line-height: 38px;
+}
+.division p {
+    float: left;
+    font-size: 18px;
+    /* font-weight: 700; */
+}
+.division h6 {
+    float: right;
+    font-family: 'loop';
+    font-weight: 400;
+}
+/* 分割线结束 */
+/* 猜你喜欢内容开始 */
+.guess_all {
+    margin: auto;
+    width: 1200px;
+    height: 233px;
+    border: 1px solid #ededed;
+    /* background-color: plum; */
+}
+.guess_all div {
+    float: left;
+    margin-left: -1px;
+    width: 201px;
+    height: 100%;
+    /* border: 1px solid skyblue; */
+    /* text-align: center; */
+    padding-top: 12px;
+}
+.guess_all div img {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.guess_all span {
+    float: left;
+    margin-left: -1px;
+    width: 190px;
+    height: 100%;
+    /* border: 1px solid skyblue; */
+    /* text-align: center; */
+    padding-top: 12px;
+    
+}
+/* 文字内容用li标签进行包裹 */
+.guess_all li {
+    float: left;
+    margin-left: 33px;
+    margin-top: 8px;
+    width: 167px;
+    /* height: 60px; */
+    border-right: 1px solid #ededed;
+    /* padding-right: 10px; */
+}
+.guess_all p {
+    font-size: 12px;
+    font-family: 'SimSun';  
+}
+ 
+h5 {
+    color: #df3033;
+    font-size: 18px;
+}
+.guess_all a {
+    color: #666;
+}

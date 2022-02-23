@@ -1,0 +1,80 @@
+.footer_one {
+    margin: auto;
+    width: 1200px;
+    height: 283px;
+    border: 1px solid #e5e5e5;
+}
+/* 左边第一个 */
+.hot_left {
+    float: left;
+    width: 240px;
+    height: 100%;
+    border-right: 1px solid #e5e5e5;
+}
+.hot_left p {
+    margin: 60px 0 0 29px;
+    color: #666;
+    font-size: 12px;
+}
+.hot_left h4 {
+    margin-left: 29px;
+    color: #df3033;
+}
+/* 左边第一个结束 */
+
+/* 中间区域 */
+.footer_one li {
+    float: left;
+    width: 219px;
+    height: 141px;
+    border-right: 1px solid #e5e5e5;
+}
+.footer_one li img {
+    float: left;
+    margin: 11px 5px 0 0;
+}
+.footer_one li p {
+    margin: 22px 0 0 5px;
+    font-size: 14px;
+    color: #666;
+}
+.footer_one li h4 {
+    margin-left: 5px;
+    color: #df3033;
+}
+
+/* 右边第一个 */
+.hot_right {
+    float: right;
+    width: 297px;
+    height: 100%;
+    /* background-color: pink; */
+}
+.hot_right img {
+    margin: 19px 0 0 15px;
+}
+
+
+/* 附加 */
+.the_nav {
+    position: fixed;
+    left: 50%;
+    top: 350px;
+    margin-left: -672px;
+    width: 61px;
+    height: 342px;
+    /* background-color: pink; */
+    font-size: 12px;
+    text-align: center;  
+}
+.the_nav li {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 30px;
+    color: #666;
+}
+.the_nav a li:hover {
+    background-color: #c81623;
+    color: #fff;
+}

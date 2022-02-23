@@ -1,0 +1,229 @@
+header {
+    height: 31px;
+    background-color: #f1f1f1;
+    
+}
+.top_nav {
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+}
+.top_nav li {
+    float: left;
+    border-left: 1px solid #666;
+    padding: 0 14px;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #666;
+}
+/* 导航栏登录标签修改 */
+.top_nav .login {
+    padding: 0 14px 0 0;
+    border-left: none;
+}
+/* 导航栏注册标签修改 */
+.top_nav .register {
+    margin-right: 352px;
+    border-left: none;
+    
+}
+.top_nav .register:hover {
+    color: #c81623;
+}
+/* 导航栏导航标签修改 */
+.top_nav .nav {
+    padding: 0 0 0 14px;
+}
+/* 下拉标签字体图标 */
+.subnav {
+    font-family: 'icomoon';
+}
+
+
+/* 第二栏 */
+/* 搜索框区域 */
+.top_search {
+    margin:24px auto;
+    width: 1200px;
+    height: 56px;
+}
+.top_search .pic_time {
+    float: left;
+    width: 85px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    margin: 10px 92px 0 7px;
+
+}
+/* 购物车logo */
+
+/* 搜索框 */
+.search {
+    float: left;
+    width: 539px;
+    height: 100%; 
+}
+.search input {
+    float: left;
+    outline: none;
+    width: 456px;
+    height: 36px;
+    border: 2px solid #c81623;
+}
+.search button {
+    margin-left: -2px;
+    float: left;
+    width: 83px;
+    height: 36px;
+    border: 2px solid #c81623;
+    background-color: #c81623;
+    color: #fff;
+}
+/* 搜索框下面导航 */
+.search li {
+    float: left;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* 购物车栏 */
+.shopping_car {
+    float: right;
+    position: relative;
+    right: 15px;
+    width: 140px;
+    height: 36px;
+    background-color: #f1f1f1;
+    border: 1px solid #666;
+    font-size: 12px;
+    margin-right: 63px;
+}
+
+
+.shopping_car p {
+    float: left;
+    font-family: 'shopping';
+    font-size: 20px;
+    color: #c81623;
+    position: relative;
+    top: 6px;
+    left: 18px;
+}
+
+.shopping_car h4 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'right';
+    color: #666;
+}
+.shopping_car h3 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'right';
+}
+/* 消息通知 */
+ .shopping_car img {
+    position: absolute;
+    right: 18px;
+    top: -4px;
+    margin: 0;
+}
+
+/* 首页最底部区域 */
+/* 底部导航栏区域开始 */
+.footer_two {
+    margin: auto;
+    width: 100%;
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+/* 上半部分 */
+.last_top {
+    margin: auto;
+    width: 1200px;
+    height: 110px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.last_top li {
+    float: left;
+    margin:19px 0 0 71px;
+    width: 171px;
+    height: 70px;
+    /* background-color: pink; */
+}
+.last_top li a {
+    float: left;
+    margin-top: 10px;
+    width: 51px;
+    height: 51px;
+    background-image: url(icons6.png);
+}
+.last_top li h3 {
+    margin-top: 18px;
+    font-size: 14px;
+    
+}
+.last_top li p {
+    font-size: 12px;
+}
+/* 中间部分 */
+.last_middle {
+    margin: auto;
+    width: 1200px;
+    height: 188px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.last_middle ul {
+    float: left;
+    margin: 10px 0 0 104px;
+    width: 96px;
+    height: 150px;
+    /* background-color: pink; */
+}
+.last_middle ul li {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* 底部区域 */
+.last_bottom li{
+    display: inline;
+    border-right: 1px solid #999;
+    font-family: 'SimSun';
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #666;
+}
+.last_bottom ul {
+    margin: auto;
+    margin-top: 20px;
+    /* display: inline-block; */
+    width: 1022px;
+    height: 36px;
+}
+
+.last_bottom li {
+    float: left;
+    font-size: 12px;
+}
+.last_bottom h3 {
+    /* display: inline-block; */
+    width: 1200px;
+    height: 36px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+/* 底部区域结束 */
+

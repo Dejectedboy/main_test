@@ -1,0 +1,93 @@
+.blog_all {
+    margin: auto;
+    width: 1204px;
+    height: 407px;
+    border: 1px solid #ededed;
+}
+.blog_all div {
+    float: left;
+}
+/* 第一片区域 */
+.blog_one {
+    width: 404px;
+    height: 100%;
+    background-color: #b8bddd;
+}
+.blog_one p {
+    color: #3b468d;
+    margin-left: 22px;
+}
+.blog_one img {
+    margin: 49px 0 0 125px;
+}
+
+/* 第二片区域 */
+    
+.blog_tow span {
+    display: inline-block;
+    float: left;
+}
+/* 上方导航标签 */
+.tips_top {
+    display: inline-block;
+    margin-left: 18px;
+    height: 40px;
+    width: 191px;
+    border-bottom: 1px dotted #e0e0e0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* 下方内容标签 */
+.blog_tow span p {
+    margin: 50px 0 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.blog_tow h3 {
+    /* display: inline; */
+    margin: 15px 0 8px 8px;
+    font-size: 12px;
+    color:#333;
+}
+.blog_tow h5 {
+    font-size: 12px; 
+    margin-left: 8px;
+}
+.blog_tow span img {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    
+}
+/* 第二片区域结束 */
+
+/* 第三片区域开始 */
+.blog_three {
+    position: relative;
+    float: left;
+    width: 407px;
+    height: 100%;
+    background-color: #f7f7f7;
+    border-right: 1px solid #e0e0e0;
+}
+/* 第三片区域结束 */
+
+/* 第四片区域品牌区域 */
+.blog_four {
+    float: left;
+     width: 160px;
+     height: 100%;
+     /* background-color: pink; */
+     padding: 5px;
+}
+.blog_four li{
+    float: left;
+    width: 75px;
+    height: 56px;
+    border-bottom: 1px dotted #e0e0e0;
+    border-right:  1px dotted #e0e0e0;
+    background-image: url(icons2.png);
+}

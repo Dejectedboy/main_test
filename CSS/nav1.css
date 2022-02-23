@@ -1,0 +1,241 @@
+/* 顶部分类区域 */
+nav {
+    margin: auto;
+    height: 47px;
+    /* background-color: red; */
+    border-bottom: 2px solid #c81623;
+}
+nav div {
+    margin: auto;
+    width: 721px;
+    height: 100%;
+    /* background-color: skyblue; */
+}
+nav li {
+    float: left;
+    margin-right: 42px;
+    font-size: 16px;
+    color: #333;
+    line-height: 47px;
+}
+/* 顶部分类区域结束 */
+
+/* 轮播图区域 */
+article {
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    top: 10px;   
+    width: 1200px;
+    height: 455px;
+    /* background-color: skyblue; */
+}
+/* 列表选择 */
+article .art_left {
+    position: absolute;
+    top: -56px;
+    float: left;
+    width: 209px;
+    height: 511px;
+    background-color: #c81623;
+
+}
+.the_all {
+    width: 100%;
+    height: 45px;
+    display: inline-block;
+    background-color: #b1191a;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+.art_left p {
+    float: right;
+    font-family: 'right';
+    color: #fff;
+}
+.art_left a {
+    display: inline-block;
+    padding: 0 12px;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #fff;
+}
+.art_left li {
+    float: left;
+}
+
+.art_left a:hover {
+    background-color: #fff;
+    color: #c81623;
+}
+
+/* 列表选择结束 */
+
+/* 右边区域 */
+.shop_all {
+    position: relative;
+    right: 0px;
+    border: 1px solid #e3e3e3;
+}
+
+article .art_right {
+    float: right;
+    width: 254px;
+    height: 454px;
+
+    /* background-color: skyblue;   */
+}
+.art_right span {
+    display: inline-block;
+    width: 100%;
+    height: 374px;
+    background-color: #fff;
+}
+
+/* 品优购快报区域 */
+.shop_all {
+    position: relative;
+    right: 0px;
+    width: 100%;
+    height: 165px;
+}
+.shop_top a{
+    /* font-family: 'right'; */
+    float: right;
+    color: #333;
+}
+.shop_top p {
+    font-family: 'right';
+}
+.shop_top {
+    padding: 0 15px;
+    height: 33px;
+    width: 100%;
+    line-height: 33px;
+    border-bottom: 1px dotted #f1f1f1;
+    font-size: 14px;
+    color: #333;
+}
+.shop_buttom li{
+    float: left;
+    margin: 9px 0 0 16px;
+    font-size: 12px;
+    color: #666;
+    
+}
+.shop_buttom p {
+    float: left;
+    font-weight: 700;
+    margin-right: 2px;
+}
+/* 品优购快报区域结束 */
+
+/* 帮助栏开始 */
+.helper {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 205px;
+    /* background-color: skyblue; */
+    border: 1px solid #e3e3e3;
+}
+.helper li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid #e3e3e3;
+    margin-left: -1px;
+    margin-top: -2px;
+    line-height: 107px;
+    text-align: center;
+    font-size: 14px;
+    background-image: url(icons.jpg);
+    background-position: 0 -4px;
+}
+.helper a {
+    color: #666;
+}
+/* 中间大图 */
+article .pic_big {
+    float: right;
+    margin-right: 9px;
+}
+/* 轮播图区域结束 */
+
+/* 推荐区域开始 */
+
+/* 推荐总模块 */
+.recommend_all {
+    margin: auto;
+    width: 1200px;
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 21px;  
+}
+.recommend {
+    float: left;
+    width: 206px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+    color: #fff;
+}
+.recommend p {
+    font-family: 'time';
+    font-size: 60px;
+    margin-top: 31px;
+    margin-bottom: 10px;
+}
+/* 推荐总模块结束 */
+
+/* 推荐产品开始 */
+.recommend_all span {
+    float: left;
+    margin-top: 10px;
+    margin-left: -1px;
+    width: 248px;
+    height: 143px;
+    background-color: #ebebeb;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 30px;
+
+}
+/* 相关文案及抢购按钮 */
+.recommend_all span h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 12px 0 11px 2px;
+}
+.recommend_all span p {
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    background-color: #00a0e8;
+    padding: 1px 2px;
+}
+.recommend_all span h3 {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 21px;
+}
+.recommend_all span button {
+    width: 57px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 57px;
+    background-color: #00a0e8;
+    border: none;
+    color: #fff;
+}
+
+.recommend_all img {
+    float: right;
+    /* margin-right: 12px; */
+    margin-top: 24px;
+}

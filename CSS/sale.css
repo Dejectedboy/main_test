@@ -1,0 +1,148 @@
+.top_line {
+    margin: auto;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #b1191a;
+}
+.top_line ul {
+    /* display: inline-block; */
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+    line-height: 45px;
+}
+.top_line li {
+    float: left;
+    margin-right: 49px;
+    font-family: 'icomoon';
+    font-size: 14px;
+}
+
+/* 顶部导航开始 */
+.top_banner {
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 1200px;
+    height: 120px;
+    background-image: url(banner.png);
+    text-align: center;
+    
+}
+.top_banner img {
+    position: absolute;
+    left: 50%;
+    margin-left: -46.5px;
+    top: 27px;
+}
+.top_banner p {
+    position: absolute;
+    left: 50%;
+    margin-left: -135px;
+    bottom: 24px;
+}
+/* 顶部导航结束 */
+
+/* 中间产品区域 */
+.the_sales {
+    /* position: relative; */
+    margin: auto;
+    margin-bottom: 31px;
+    width: 1200px;
+    height: 2123px;
+    /* background-color: skyblue; */
+}
+.the_sales li {
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    /* transition: all 1s; */
+}
+
+/* 商品标题 */
+.iphone_title {
+    margin-left: 9px;
+    width: 271px;
+    height: 39px;
+    color: #666;
+    font-size: 14px;
+}
+/* 商品价格 */
+.iphone_price {
+    margin: 9px 0 0 9px;
+    width: 130px;
+    height: 28px;
+    line-height: 28px;
+}
+.iphone_price h3 {
+    float: left;
+    font-size: 22px;
+    color: #e60012;
+}
+.iphone_price p {
+    float: right;
+    margin-right: 7px;
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+/* 销售进度 */
+.iphone_rate {
+    margin: auto;
+    margin-left: 9px;
+    width: 274px;
+    height: 30px;
+}
+
+/* 内部文字结构 */
+.in_rate span{
+    color: #e12228;
+}
+.in_rate {
+    color: #666;
+    font-size: 12px;
+}
+/* .进度条 */
+.progress_bar {
+    display: inline-block;
+    margin: 0 11px 0 12px;
+    width: 132px;
+    height: 12px;
+    /* background-color: #e60012; */
+    border-radius: 12px;
+    border: 1px solid #e60012;
+}
+.progress_bar ul {
+    float: left;
+    width: 117px;
+    height: 100%;
+    background-color: #ed282e;
+}
+.the_sales button {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    border: none;
+    color: #fff;
+}
+
+/* 点击过渡效果 */
+.the_sales li:hover {
+    border: 1px solid #e12228;
+}
+/* 附加效果 */
+.tips_right {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-left: 610px;
+    margin-top: -190px;
+    width: 68px;
+    height: 137px;
+    /* border: 1px solid #666; */
+}

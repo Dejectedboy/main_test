@@ -1,0 +1,205 @@
+/* 分割线标签内容 */
+.split {
+    margin: auto;
+    margin-top: 20px;
+    width: 1200px;
+    height: 37px;
+    border-bottom: 1px solid #c81623;
+    /* background-color: pink; */
+    line-height: 37px;
+}
+.split ul {
+    float: right;
+    height: 36px;
+}
+
+.split li {
+
+    float: left;
+    font-size: 12px;
+}
+.split li p {
+    display: inline;
+    border-right: 1px solid #999;
+    font-family: 'SimSun';
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.split a {
+    color: #666;
+}
+
+/* 产品内容 */
+.product {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 360px;
+    background-color: #fff;
+}
+/* 从左至右以此排序 */
+/* 第一个 */
+.pro_one {
+    float: left;
+    width: 210px;
+    height: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.pro_one li {
+    float: left;
+    margin-left: 14px;
+    width: 86px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 33px;
+    font-size: 12px;
+    color: #666;
+}
+.pro_one p {
+    color: #c81623;
+    font-size: 18px;
+    margin-top: 125px;
+}
+.pro_one h3 {
+    color: #c81623;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* 第一个结束 */
+
+/* 第二个开始 */
+.pro_tow {
+    position: relative;
+    float: left;
+    width: 329px;
+    height: 100%;
+    background-color: #aed6d8;
+    color: #066c7d;
+}
+.pro_tow p {
+    font-size: 18px;
+    margin-top: 39px;
+}
+.pro_tow h6 {
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.pro_tow p,
+.pro_tow h6 {
+    margin-left: 31px;
+}
+.pro_tow img {
+    position: absolute;
+    bottom: 34px;
+    right: 63px;
+}
+/* 底下小圆点 */
+.pro_tow ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: 10px;
+    width: 70px;
+    height: 23px;
+    /* background-color: pink; */
+
+}
+.pro_tow li  {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #3e3e3e;
+    margin: 7px 0px 0px 10px;
+    border-radius: 10px;
+}
+.pro_tow a li:hover {
+    background-color: #fff;
+}
+ 
+/* 第二个结束 */
+
+/* 第三个开始 */
+.pro_three {
+    float: left;
+    width: 219px;
+    height: 100%;
+    /* background-color: #fff; */
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+.pro_three span {
+    float: left;
+}
+.pro_three p {
+    margin:25px 0 0 19px ;
+    font-size: 16px;
+}
+.pro_three h3 {
+    margin:8px 0 0 19px;
+    font-size: 14px;
+    color: #e60012;
+}
+
+/* 第三个结束 */
+
+/* 第四个开始 */
+.pro_four {
+    position: relative;
+    float: left;
+    width: 221px;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.pro_four p {
+    margin-top: 72px;
+    font-size: 18px;
+}
+.pro_four h3 {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+}
+.pro_four img {
+    position: absolute;
+    bottom: 53px;
+    left: 23px;
+}
+
+/* 品牌分割线 */
+.split_all {
+    margin: auto;
+    width: 1200px;
+    height: 66px;
+    background-color: #f7f7f7;
+}
+.split_tow li {
+    float: left;
+    margin-top: 14px;
+    width: 121px;
+    height: 39px;
+    border-right: 1px dotted #ccc;
+    background-image: url(icons4.png); 
+}
+.split_three li {
+    float: left;
+    margin-top: 14px;
+    width: 121px;
+    height: 39px;
+    border-right: 1px dotted #ccc;
+    background-image: url(icons3.png); 
+}
+.split_four li {
+    float: left;
+    margin-top: 14px;
+    width: 121px;
+    height: 39px;
+    border-right: 1px dotted #ccc;
+    background-image: url(icons5.png); 
+}

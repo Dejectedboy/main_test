@@ -1,0 +1,116 @@
+.top_logo {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 84px;
+    border-bottom: 1px solid #b1191a;    
+}
+.top_logo img {
+    margin-top: 15px;
+}
+/* 下面内容表单 */
+.top_all  { 
+    margin: auto;
+    width: 1200px;
+    height: 522px;
+    border: 1px solid #dfdfdf;
+}
+.top_all form {
+    /* float: left; */
+    position: relative;
+    margin:41px auto;
+    width: 565px;
+    height: 422px;
+    /* border: 1px solid pink; */
+}
+.top_all form a {
+    color: #1ba1e6;
+    font-size: 14px;
+}
+
+/* 表单内部盒子 */
+.top_all form div {
+    /* float: left; */
+    width: 515px;
+    height: 57px;
+}
+.top_all form p {
+    float: left;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.top_all form h3 {
+    font-family: 'erro';
+    color: #df3033;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 62px;
+}
+.top_all form ul {
+    /* float: right; */
+    margin:  0 167px;
+    /* margin-left: -6px; */
+    width: 168px;
+    height: 16px;
+    line-height: 16px;
+}
+.top_all form ul p {
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.top_all form li {
+    float: left;
+    /* padding: 1px; */
+    margin-top: 2.5px;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.top_all form button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -190px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: none;
+    color: #fff;
+}
+.form_box {
+    margin-top: 13px;
+    width: 240px;
+    height: 36px;
+    outline: none;
+}
+.register_user {
+    float: left;
+    padding: 0 10px;
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+    line-height: 41px;  
+}
+.register_user p {
+    float: left;
+    color: #333;
+    font-size: 18px;
+}
+.register_user h5 {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* 复选框按钮 */
+.the_checkbox {
+    float: left;
+    width: 16px;
+    height: 15px; 
+    margin-top:4px;
+    border: 1px solid #999;
+    background-color: #f2f2f2;
+}
